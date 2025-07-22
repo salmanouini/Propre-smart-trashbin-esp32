@@ -5,7 +5,7 @@ An intelligent smart trash bin that automatically opens when a person approaches
 - Distance measurement using an Ultrasonic Sensor to detect the trash level.
 - WiFi connectivity enabled by the ESP32 microcontroller.
 - Real-time data transmission to Firebase for cloud storage and monitoring.
-- Android application sends notifications when the trash bin is full.
+- Android application receive notifications when the trash bin is full and displays the fill level of the trash bin. .
 - Servo motor controls automatic lid opening.
 - When the bin is full, the automatic lid opening on approach is disabled; instead, a manual button is used to open the lid for cleaning purposes.
 
